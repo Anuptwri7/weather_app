@@ -114,13 +114,13 @@ class _HomePageState extends State<HomePage> {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/bg.jpg'), // Replace with your image path
+                image: AssetImage('assets/bg.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
             child: Center(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.start, // Vertically center content
+                mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Padding(
@@ -177,7 +177,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ],
                   ),
-                  // Added spacing between address and weather
+
                   Expanded(
                     flex: 1,
                     child: FutureBuilder<List<WeatherModel>?>(
